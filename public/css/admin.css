@@ -1,0 +1,87 @@
+* {
+    font-family: "Poppins", Arial, sans-serif;
+    
+}
+
+body {
+    background-color: #F1F2F6;
+}
+
+.side-navbar {
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    /* margin-left: -300px; */
+    /* background-color: #100901; */
+    background-color: #F1F2F6;
+}
+
+.my-container {
+    width: 85%;
+    height: 100%;
+    position: fixed;
+    border-radius: 30px;
+    background: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 83%;
+    position: fixed;
+    background-color: white;
+    border-top-left-radius: 50px;
+}
+
+.content {
+    margin-top: 93px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.active-nav {
+    margin-left: 0;
+}
+
+.active-cont {
+    margin-left: 15%;
+}
+
+.menu-active {
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.breadcrumb {
+    background-color: white;
+}
+
+.profile {
+    background-color: #F1F2F6;
+    border-radius: 50%;
+}
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+    background-color: #F1F2F6;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #F1F2F6;
+}
+
+/* .table-responsive {
+    font-size: 11.5px;
+}
+
+.table-responsive .btn-success {
+    font-size: 11.5px;
+}
+
+.table-responsive .btn-danger {
+    font-size: 11.5px;
+}
+
+.btn-tambah {
+    font-size: 11.5px;
+} */
